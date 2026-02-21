@@ -1,0 +1,23 @@
+# Dependencies
+.opencode/node_modules/
+
+# OS files
+.DS_Store
+
+# Video files (usually large)
+*.mp4
+*.mkv
+*.webm
+*.avi
+*.mov
+
+# Subtitle files
+*.srt
+*.vtt
+*.ass
+
+# Output clips
+video_clips/
+
+# Lock files (optional, keep if needed)
+# .opencode/bun.lock
