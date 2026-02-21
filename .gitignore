@@ -19,5 +19,7 @@
 # Output clips
 video_clips/
 
+.env
+
 # Lock files (optional, keep if needed)
 # .opencode/bun.lock
