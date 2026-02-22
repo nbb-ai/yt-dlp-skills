@@ -26,6 +26,45 @@ brew install whisper-cpp
 
 ---
 
+## 支持平台
+
+yt-dlp 支持 **1800+** 网站，涵盖几乎所有主流视频平台。
+
+### 国际平台
+
+| 类别 | 网站 |
+|------|------|
+| **视频** | YouTube, Vimeo, Dailymotion, Twitch |
+| **社交** | Twitter/X, Facebook, Instagram, Reddit, TikTok |
+| **音乐** | YouTube Music, SoundCloud, Spotify |
+| **流媒体** | Netflix, Hulu, Disney+, HBO, Prime Video |
+
+### 中文平台
+
+| 平台 | 支持情况 |
+|------|----------|
+| B站 (bilibili) | ✅ 视频、番剧、音频、收藏夹 |
+| 抖音 | ✅ 视频、直播 |
+| TikTok | ✅ 视频、用户、直播 |
+| 爱奇艺 | ✅ |
+| CCTV | ✅ |
+| AcFun | ✅ |
+| 腾讯视频 | ⚠️ 部分支持 |
+| 优酷 | ⚠️ 有限支持 |
+| 微博 | ⚠️ 有限支持 |
+
+### 查看完整列表
+
+```bash
+# 列出所有支持的网站
+yt-dlp --list-extractors
+
+# 查看特定网站支持情况
+yt-dlp --extractor-descriptions | grep -A 20 "Bilibili"
+```
+
+---
+
 ## Video to Podcast
 
 从视频内容到多人对话播客的完整工作流。
